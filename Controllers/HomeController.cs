@@ -27,6 +27,6 @@ namespace Advanced.Controllers
         public IEnumerable<string> Cities { get; set; } = Enumerable.Empty<string>();
         public string SelectedCity { get; set; } = String.Empty;
         public string GetClass(string? city) =>
-        SelectedCity == city ? "bg-info text-white" : "";
+        SelectedCity == city ? "table-info text-white" : "";
     }
 }

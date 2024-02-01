@@ -4,6 +4,7 @@
 <head>
     <title>@ViewBag.Title</title>
     <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <base href="~/" />
 </head>
 
 <body>
@@ -11,6 +12,7 @@
         <h5 class="bg-secondary text-white text-center p-2">Razor Page</h5>
         @RenderBody()
     </div>
+    <script src="_framework/blazor.server.js"></script>
 </body>
 
 </html>
